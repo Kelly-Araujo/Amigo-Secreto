@@ -2,6 +2,13 @@
 
 Este é um projeto simples em JavaScript que permite realizar um sorteio de amigo secreto para grupos de pessoas. O sistema pega uma lista de nomes e sorteia aleatoriamente quem será o amigo secreto de cada pessoa. Ideal para festas ou eventos de fim de ano!
 
+## Tecnologias Usadas
+
+- **HTML**: Para estruturar a página e o conteúdo.
+- **CSS**: Para estilizar a interface e melhorar a apresentação do projeto.
+- **JavaScript**: Para implementar a lógica de adicionar amigos à lista e manipulação do DOM.
+
+
 ## Funcionalidades
 
 - Entrada de nomes de participantes.
