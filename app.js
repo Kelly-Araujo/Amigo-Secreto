@@ -25,3 +25,20 @@ function adicionarAmigo(){
     }
 }
 
+function sortearAmigo(){
+    if (amigos.length > 0) {
+        let aleatorio = Math.floor(Math.random()* amigos.length);
+        let amigoSorteado = amigos[aleatorio];
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = "";
+        let itemResultado = document.createElement("li");
+        itemResultado.textContent = `Amigo sorteado: ${amigoSorteado}`;
+        resultado.appendChild(itemResultado);
+    } else {
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = ""; // Limpa resultados anteriores
+        let itemResultado = document.createElement("li");
+        itemResultado.textContent = "Nenhum amigo para sortear.";
+        resultado.appendChild(itemResultado);
+    }
+}
